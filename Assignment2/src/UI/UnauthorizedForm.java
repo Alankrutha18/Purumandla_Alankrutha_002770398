@@ -29,6 +29,8 @@ public class UnauthorizedForm extends javax.swing.JPanel {
 
         Authorize = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(102, 0, 102));
+
         Authorize.setText("You are not authorized to access this page");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

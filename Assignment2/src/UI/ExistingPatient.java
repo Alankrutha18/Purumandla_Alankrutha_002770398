@@ -55,7 +55,7 @@ public class ExistingPatient extends javax.swing.JPanel {
         btnAddPatient = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(153, 153, 255));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -87,7 +87,7 @@ public class ExistingPatient extends javax.swing.JPanel {
 
         jLabel3.setText("Temperature");
 
-        jLabel2.setText("Blood Pressure");
+        jLabel2.setText("Respiration Rate");
 
         jLabel4.setText("Pulse Rate");
 
@@ -148,7 +148,7 @@ public class ExistingPatient extends javax.swing.JPanel {
                         .addContainerGap()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 465, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(75, 75, 75)))
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
