@@ -54,6 +54,10 @@ public class GetDoctorsForm extends javax.swing.JPanel {
         doctorsList = new javax.swing.JScrollPane();
         tblDoctors = new javax.swing.JTable();
 
+        setBackground(new java.awt.Color(0, 204, 204));
+
+        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
+
         tblDoctors.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},

@@ -90,7 +90,7 @@ public class PersonsScreen extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setText("Blood Pressure");
+        jLabel2.setText("Respiration Rate");
 
         btnAddPatient.setText("Add patient");
         btnAddPatient.addActionListener(new java.awt.event.ActionListener() {
@@ -149,7 +149,7 @@ public class PersonsScreen extends javax.swing.JPanel {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(191, 191, 191)
                         .addComponent(jLabel1)))
-                .addContainerGap(226, Short.MAX_VALUE))
+                .addContainerGap(219, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
